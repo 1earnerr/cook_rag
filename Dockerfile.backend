@@ -1,0 +1,18 @@
+FROM python:3.12-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    HF_HOME=/root/.cache/huggingface \
+    TRANSFORMERS_CACHE=/root/.cache/huggingface/hub
+
+WORKDIR /workspace
+
+COPY code/QAR/requirements.txt /workspace/code/QAR/requirements.txt
+RUN python -m pip install --no-cache-dir -r /workspace/code/QAR/requirements.txt
+
+COPY code/QAR /workspace/code/QAR
+COPY data/QAR /workspace/data/QAR
+
+EXPOSE 8000
+
+CMD ["python", "-m", "uvicorn", "api:app", "--app-dir", "/workspace/code/QAR", "--host", "0.0.0.0", "--port", "8000"]

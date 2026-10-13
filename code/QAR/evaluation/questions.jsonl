@@ -1,0 +1,39 @@
+{"id":"q001","query":"糖醋鲤鱼需要准备哪些主要原料？","query_type":"entity","relevant_documents":["dishes/aquatic/糖醋鲤鱼/糖醋鲤鱼.md"],"filters":{},"annotation_note":"文档的必备原料与计算章节直接回答。"}
+{"id":"q002","query":"宫保鸡丁里的花生应该在什么时候下锅？","query_type":"entity","relevant_documents":["dishes/meat_dish/宫保鸡丁/宫保鸡丁.md"],"filters":{},"annotation_note":"简易和进阶步骤都说明花生的下锅时机。"}
+{"id":"q003","query":"微波炉鸡蛋羹的鸡蛋和水按什么比例混合？","query_type":"entity","relevant_documents":["dishes/vegetable_dish/鸡蛋羹/微波炉鸡蛋羹.md"],"filters":{},"annotation_note":"微波炉版文档给出鸡蛋和水的比例与注意事项。"}
+{"id":"q004","query":"空气炸锅羊排翻面以后还要烤多久？","query_type":"entity","relevant_documents":["dishes/semi-finished/空气炸锅羊排/空气炸锅羊排.md"],"filters":{},"annotation_note":"操作章节明确写出翻面后的温度和时间。"}
+{"id":"q005","query":"凉拌金针菇如果不吃辣应该怎么处理？","query_type":"entity","relevant_documents":["dishes/vegetable_dish/凉拌金针菇.md"],"filters":{},"annotation_note":"附加内容明确说明可以省略辣椒油。"}
+{"id":"q006","query":"鸡蛋和西红柿可以做什么汤？","query_type":"ingredient","relevant_documents":["dishes/soup/西红柿鸡蛋汤.md"],"filters":{},"annotation_note":"两种主要食材与汤类限定唯一指向该文档。"}
+{"id":"q007","query":"包菜、粉丝和鸡蛋怎么搭配炒菜？","query_type":"ingredient","relevant_documents":["dishes/vegetable_dish/包菜炒鸡蛋粉丝/包菜炒鸡蛋粉丝.md"],"filters":{},"annotation_note":"三种主食材组合直接对应文档。"}
+{"id":"q008","query":"土豆、青椒和猪肉一起炒，要准备什么？","query_type":"ingredient","relevant_documents":["dishes/meat_dish/青椒土豆炒肉/青椒土豆炒肉.md"],"filters":{},"annotation_note":"三种主要原料组合对应青椒土豆炒肉。"}
+{"id":"q009","query":"猪里脊、鸡蛋和番茄酱能做哪道酸甜肉菜？","query_type":"ingredient","relevant_documents":["dishes/meat_dish/糖醋里脊.md"],"filters":{},"annotation_note":"原料与酸甜肉条特征对应糖醋里脊。"}
+{"id":"q010","query":"西红柿、土豆和牛肉一起炖的步骤是什么？","query_type":"ingredient","relevant_documents":["dishes/meat_dish/西红柿土豆炖牛肉/西红柿土豆炖牛肉.md"],"filters":{},"annotation_note":"三种主要食材的炖菜对应该文档。"}
+{"id":"q011","query":"金针菇和番茄煮汤时能不能加鸡蛋？","query_type":"ingredient","relevant_documents":["dishes/soup/金针菇汤.md"],"filters":{},"annotation_note":"金针菇汤的步骤专门说明可选加入鸡蛋。"}
+{"id":"q012","query":"想给孩子做不需要烤箱的糯米皮芋泥甜点，怎么做？","query_type":"semantic","relevant_documents":["dishes/dessert/芋泥雪媚娘/芋泥雪媚娘.md"],"filters":{},"annotation_note":"文档描述为适合孩子、无需烤箱的芋泥雪媚娘。"}
+{"id":"q013","query":"买现成挞皮和挞液做懒人烘焙，烤箱要设多少度？","query_type":"semantic","relevant_documents":["dishes/semi-finished/懒人蛋挞/懒人蛋挞.md"],"filters":{},"annotation_note":"半成品挞皮和挞液以及烤箱温度只向懒人蛋挞。"}
+{"id":"q014","query":"粉丝配肉末，咸香微辣，二十分钟能做的菜是什么？","query_type":"semantic","relevant_documents":["dishes/meat_dish/蚂蚁上树.md"],"filters":{},"annotation_note":"描述与蚂蚁上树文档的简介一致。"}
+{"id":"q015","query":"不用洗锅，解冻后用热风设备烤鸡翅怎么做？","query_type":"semantic","relevant_documents":["dishes/semi-finished/空气炸锅鸡翅中/空气炸锅鸡翅中.md"],"filters":{},"annotation_note":"不洗锅、解冻和热风设备是空气炸锅鸡翅文档的显著特征。"}
+{"id":"q016","query":"冷冻汤圆不想开火，怎样快速加热？","query_type":"semantic","relevant_documents":["dishes/semi-finished/速冻汤圆/速冻汤圆.md"],"filters":{},"annotation_note":"文档提供微波炉加热速冻汤圆的方法。"}
+{"id":"q017","query":"不用调料、不用掌握火候，把腊肠和娃娃菜做成懒人菜怎么做？","query_type":"fuzzy","relevant_documents":["dishes/meat_dish/黔式腊肠娃娃菜/黔式腊肠娃娃菜.md"],"filters":{},"annotation_note":"这些是该文档简介的语义特征，Query 不使用菜名。"}
+{"id":"q018","query":"东北酸甜酥脆的炸肉片，白醋味很突出，应该怎么做？","query_type":"fuzzy","relevant_documents":["dishes/meat_dish/老式锅包肉/老式锅包肉.md"],"filters":{},"annotation_note":"地域、口感与白醋特征对应老式锅包肉。"}
+{"id":"q019","query":"蛋白要打到立尖，烤出来细腻绵软的入门蛋糕怎么做？","query_type":"fuzzy","relevant_documents":["dishes/dessert/戚风蛋糕/戚风蛋糕.md"],"filters":{},"annotation_note":"干性发泡和细腻绵软特征对应戚风蛋糕。"}
+{"id":"q020","query":"软烂脱骨的猪脚配酸辣蘸汁，这道汤菜怎么做？","query_type":"fuzzy","relevant_documents":["dishes/meat_dish/老妈蹄花/老妈蹄花.md"],"filters":{},"annotation_note":"软烂脱骨和酸辣汁是老妈蹄花文档的特征。"}
+{"id":"q021","query":"基础牛奶面包的酵头发酵失败时可以采取哪些补救方法？","query_type":"long_section","relevant_documents":["dishes/staple/基础牛奶面包/基础牛奶面包.md"],"filters":{},"annotation_note":"目标位于最长文档的酵头操作章节。"}
+{"id":"q022","query":"戚风蛋糕打发蛋白时，三次加糖分别是什么状态？","query_type":"long_section","relevant_documents":["dishes/dessert/戚风蛋糕/戚风蛋糕.md"],"filters":{},"annotation_note":"目标位于长文档的打发蛋白子章节。"}
+{"id":"q023","query":"煎牛排为什么不能提前用盐腌制？","query_type":"long_section","relevant_documents":["dishes/meat_dish/牛排/牛排.md"],"filters":{},"annotation_note":"目标位于长文档烹饪章节中部，说明盐会析出水分。"}
+{"id":"q024","query":"老式锅包肉需要炸几次，每次的油温是多少？","query_type":"long_section","relevant_documents":["dishes/meat_dish/老式锅包肉/老式锅包肉.md"],"filters":{},"annotation_note":"目标位于较长文档的炸制肉片后部步骤。"}
+{"id":"q025","query":"这份食谱里烤制温度和时间是什么？","query_type":"metadata","relevant_documents":["dishes/staple/基础牛奶面包/基础牛奶面包.md"],"filters":{"source":"dishes/staple/基础牛奶面包/基础牛奶面包.md"},"annotation_note":"使用通用 source metadata 将指代不明的 Query 限定到目标文档。"}
+{"id":"q026","query":"蛋白打发到什么状态才算完成？","query_type":"metadata","relevant_documents":["dishes/dessert/戚风蛋糕/戚风蛋糕.md"],"filters":{"title":"戚风蛋糕的做法"},"annotation_note":"使用通用 title metadata 限定到戚风蛋糕文档。"}
+{"id":"q027","query":"翻面以后还需要加热多久？","query_type":"metadata","relevant_documents":["dishes/semi-finished/空气炸锅羊排/空气炸锅羊排.md"],"filters":{"source":"dishes/semi-finished/空气炸锅羊排/空气炸锅羊排.md"},"annotation_note":"使用 source metadata 解决 Query 中缺少菜名的指代。"}
+{"id":"q028","query":"如何在三台服务器上搭建 Kubernetes 高可用集群？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有运维集群内容。"}
+{"id":"q029","query":"量子纠缠为什么不能用来超光速通信？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有量子物理内容。"}
+{"id":"q030","query":"如何用 FastAPI 部署一个带 JWT 认证的 REST 服务？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有软件开发内容。"}
+{"id":"q031","query":"植物光合作用的光反应和暗反应分别发生在哪里？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有植物生物学内容。"}
+{"id":"q032","query":"劳动合同试用期内辞退员工需要支付经济补偿吗？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有劳动法律内容。"}
+{"id":"q033","query":"股票的市盈率和市净率分别应该怎么计算？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有金融投资内容。"}
+{"id":"q034","query":"从巴黎戴高乐机场去卢浮宫坐地铁应该怎么换乘？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有法国旅行交通内容。"}
+{"id":"q035","query":"汽车发动机故障码 P0300 通常表示什么问题？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有汽车维修内容。"}
+{"id":"q036","query":"贝多芬第五交响曲是什么调性，首演于哪一年？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有西方音乐史内容。"}
+{"id":"q037","query":"一元二次方程的求根公式是怎么推导出来的？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有代数推导内容。"}
+{"id":"q038","query":"明朝土木堡之变的起因、过程和影响是什么？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有中国史内容。"}
+{"id":"q039","query":"高血压患者常用的一线降压药有哪些？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有临床药物治疗内容。"}

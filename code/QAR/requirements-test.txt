@@ -1,0 +1,12 @@
+# Offline tests: real splitter/FAISS/BM25, injected test vectors and simulated LLM.
+pytest==8.4.2
+langchain-core==1.6.3
+langchain-text-splitters==1.1.2
+langchain-openai==1.6.2
+faiss-cpu==1.15.1
+rank_bm25==0.2.2
+numpy==2.5.3
+python-dotenv==1.2.3
+fastapi==0.141.1
+pydantic==2.13.5
+httpx==0.28.1

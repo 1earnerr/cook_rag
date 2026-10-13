@@ -1,0 +1,430 @@
+{
+  "dataset": {
+    "total": 30,
+    "answerable": 27,
+    "no_answer": 3,
+    "query_types": {
+      "entity": 5,
+      "fuzzy": 4,
+      "ingredient": 6,
+      "long_section": 4,
+      "metadata": 3,
+      "no_answer": 3,
+      "semantic": 5
+    }
+  },
+  "parameters": {
+    "embedding_model": "BAAI/bge-small-zh-v1.5",
+    "vector_fetch_k": 20,
+    "bm25_fetch_k": 20,
+    "final_k": 5,
+    "rrf_k": 60,
+    "query_rewrite_enabled": false,
+    "document_count": 322,
+    "chunk_count": 1804
+  },
+  "overall": {
+    "vector": {
+      "queries": 27,
+      "recall_at_3": 0.8518518518518519,
+      "recall_at_5": 0.9259259259259259,
+      "mrr": 0.8049382716049382,
+      "mean_latency_ms": 11.077922222385597
+    },
+    "bm25": {
+      "queries": 27,
+      "recall_at_3": 0.9629629629629629,
+      "recall_at_5": 0.9629629629629629,
+      "mrr": 0.9197530864197531,
+      "mean_latency_ms": 13.347396301536786
+    },
+    "hybrid": {
+      "queries": 27,
+      "recall_at_3": 0.9629629629629629,
+      "recall_at_5": 0.9629629629629629,
+      "mrr": 0.9444444444444444,
+      "mean_latency_ms": 20.612929630765898
+    }
+  },
+  "by_query_type": {
+    "entity": {
+      "vector": {
+        "queries": 5,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "mean_latency_ms": 25.660800002515316
+      },
+      "bm25": {
+        "queries": 5,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "mean_latency_ms": 12.377299991203472
+      },
+      "hybrid": {
+        "queries": 5,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "mean_latency_ms": 20.649400004185736
+      }
+    },
+    "fuzzy": {
+      "vector": {
+        "queries": 4,
+        "recall_at_3": 0.75,
+        "recall_at_5": 1.0,
+        "mrr": 0.675,
+        "mean_latency_ms": 8.701774997462053
+      },
+      "bm25": {
+        "queries": 4,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "mean_latency_ms": 16.777400007413235
+      },
+      "hybrid": {
+        "queries": 4,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "mean_latency_ms": 26.007799999206327
+      }
+    },
+    "ingredient": {
+      "vector": {
+        "queries": 6,
+        "recall_at_3": 0.8333333333333334,
+        "recall_at_5": 1.0,
+        "mrr": 0.7555555555555555,
+        "mean_latency_ms": 7.625033331957336
+      },
+      "bm25": {
+        "queries": 6,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.8888888888888888,
+        "mean_latency_ms": 11.856900009055002
+      },
+      "hybrid": {
+        "queries": 6,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "mean_latency_ms": 17.68886667074791
+      }
+    },
+    "long_section": {
+      "vector": {
+        "queries": 4,
+        "recall_at_3": 0.75,
+        "recall_at_5": 0.75,
+        "mrr": 0.75,
+        "mean_latency_ms": 8.767575003730599
+      },
+      "bm25": {
+        "queries": 4,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.875,
+        "mean_latency_ms": 16.33620000211522
+      },
+      "hybrid": {
+        "queries": 4,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.875,
+        "mean_latency_ms": 23.94809999532299
+      }
+    },
+    "metadata": {
+      "vector": {
+        "queries": 3,
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_5": 0.6666666666666666,
+        "mrr": 0.6666666666666666,
+        "mean_latency_ms": 7.264833334678163
+      },
+      "bm25": {
+        "queries": 3,
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_5": 0.6666666666666666,
+        "mrr": 0.6666666666666666,
+        "mean_latency_ms": 11.478933350493511
+      },
+      "hybrid": {
+        "queries": 3,
+        "recall_at_3": 0.6666666666666666,
+        "recall_at_5": 0.6666666666666666,
+        "mrr": 0.6666666666666666,
+        "mean_latency_ms": 18.03313332493417
+      }
+    },
+    "semantic": {
+      "vector": {
+        "queries": 5,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.9,
+        "mean_latency_ms": 6.675559998257086
+      },
+      "bm25": {
+        "queries": 5,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "mean_latency_ms": 12.092120008310303
+      },
+      "hybrid": {
+        "queries": 5,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "mean_latency_ms": 18.64918000646867
+      }
+    }
+  },
+  "failure_categories": {
+    "hybrid_worse_than_best_single_route": [
+      "q022"
+    ],
+    "bm25_success_vector_failure": [
+      "q024"
+    ],
+    "hybrid_repairs_single_route_failure": [
+      "q024"
+    ],
+    "all_modes_failure": [
+      "q027"
+    ]
+  },
+  "no_answer_results": [
+    {
+      "query_id": "q028",
+      "query": "如何在三台服务器上搭建 Kubernetes 高可用集群？",
+      "query_type": "no_answer",
+      "mode": "vector",
+      "filters": {},
+      "relevant_sources": [],
+      "relevant_document_ids": [],
+      "top_document_ids": [
+        "35820a0555d3e6826f7674243365ee6748bbaf5d96e0ee2a235b44e56fcbbaa4",
+        "1282bbd3a9c9b164d1e7a5ecde8d4064a1f384c82489813acb813a54ab3fadea",
+        "e1c93933b3fdd167fcfdbe11b7e4c0c7cfaaa890b7b36a103d6cf1e5cfd34375",
+        "43027c68c000957614c6022bd28d22029c63147c475a36f7429fef2b47dcce83",
+        "e960ac6812f3005c966cf6c2a0396f1a420b65c73db3b3c36516cfa13f34bf61"
+      ],
+      "top_sources": [
+        "dishes/breakfast/蒸花卷.md",
+        "dishes/dessert/魔芋蛋糕/魔芋蛋糕.md",
+        "dishes/condiment/蔗糖糖浆/蔗糖糖浆.md",
+        "dishes/dessert/龟苓膏/龟苓膏.md",
+        "dishes/semi-finished/懒人蛋挞/懒人蛋挞.md"
+      ],
+      "latency_ms": 6.7226999963168055,
+      "metrics": null
+    },
+    {
+      "query_id": "q028",
+      "query": "如何在三台服务器上搭建 Kubernetes 高可用集群？",
+      "query_type": "no_answer",
+      "mode": "bm25",
+      "filters": {},
+      "relevant_sources": [],
+      "relevant_document_ids": [],
+      "top_document_ids": [
+        "afbed08955789550ecc3966b781bfe0664660d7a25ac64c8021616aa7191ea33",
+        "17cc9ae41d9fb45904b61b4ff9bb76fc65d99017d3acc39020f3d65f25141b71",
+        "ec9f0780bddb3fb43e422f7ec947edd6f047c97e0efac620943e540861fea15e",
+        "632366b21003bc03a76da308734ea98ee6943c332e63c2dd53aba24a54257ebc",
+        "515e68668fde39090e659c50a4942ad54737605c1ded4d823c5ef72a65cd9ca8"
+      ],
+      "top_sources": [
+        "dishes/vegetable_dish/鸡蛋羹/鸡蛋羹.md",
+        "dishes/breakfast/微波炉蛋糕.md",
+        "dishes/staple/基础牛奶面包/基础牛奶面包.md",
+        "dishes/staple/日式肥牛丼饭/日式肥牛丼饭.md",
+        "dishes/breakfast/燕麦鸡蛋饼.md"
+      ],
+      "latency_ms": 10.582599992631003,
+      "metrics": null
+    },
+    {
+      "query_id": "q028",
+      "query": "如何在三台服务器上搭建 Kubernetes 高可用集群？",
+      "query_type": "no_answer",
+      "mode": "hybrid",
+      "filters": {},
+      "relevant_sources": [],
+      "relevant_document_ids": [],
+      "top_document_ids": [
+        "e1c93933b3fdd167fcfdbe11b7e4c0c7cfaaa890b7b36a103d6cf1e5cfd34375",
+        "419a5e174596d2a4bc497eec4dd06035f814fa1e7fdcdd112d24cda6be75313e",
+        "8c3af213e85c417e928cf5141c5ce0c14d351200dce2f3c9240b4e30b9cdf425",
+        "afbed08955789550ecc3966b781bfe0664660d7a25ac64c8021616aa7191ea33",
+        "35820a0555d3e6826f7674243365ee6748bbaf5d96e0ee2a235b44e56fcbbaa4"
+      ],
+      "top_sources": [
+        "dishes/condiment/蔗糖糖浆/蔗糖糖浆.md",
+        "dishes/soup/罗宋汤.md",
+        "dishes/dessert/提拉米苏/提拉米苏.md",
+        "dishes/vegetable_dish/鸡蛋羹/鸡蛋羹.md",
+        "dishes/breakfast/蒸花卷.md"
+      ],
+      "latency_ms": 22.38570002373308,
+      "metrics": null
+    },
+    {
+      "query_id": "q029",
+      "query": "量子纠缠为什么不能用来超光速通信？",
+      "query_type": "no_answer",
+      "mode": "vector",
+      "filters": {},
+      "relevant_sources": [],
+      "relevant_document_ids": [],
+      "top_document_ids": [
+        "0f850528c9848307d3b5e58a50c7784d39a65d90a258854b0d6d5a73276073ff",
+        "920d017802b3b131e2ce62259aac0ebd32b503cc61d745766a7063d5472919c2",
+        "11368a20c31b46c45d76842b1275d69964cc9fb989a80edcfdad81385cf9f63b",
+        "b80fc917b705e95bc5a35a9b0870a04e2ccff5143b68044c7572ac91c45b904e",
+        "f64edf0ff4660fb1b139a6d93262a0f7befa4437699cfa884e87e6a09c78e800"
+      ],
+      "top_sources": [
+        "dishes/breakfast/牛奶燕麦.md",
+        "dishes/staple/汤面.md",
+        "dishes/drink/耙耙柑茶/耙耙柑茶.md",
+        "dishes/staple/扬州炒饭/扬州炒饭.md",
+        "dishes/staple/河南蒸面条/河南蒸面条.md"
+      ],
+      "latency_ms": 7.52799998736009,
+      "metrics": null
+    },
+    {
+      "query_id": "q029",
+      "query": "量子纠缠为什么不能用来超光速通信？",
+      "query_type": "no_answer",
+      "mode": "bm25",
+      "filters": {},
+      "relevant_sources": [],
+      "relevant_document_ids": [],
+      "top_document_ids": [
+        "49e4e1e85bbfe8f859055175b5c6b231f7e2ca27548728ebd6d2af7b52a87dad",
+        "cf3dabc066de2aa054f07c926b85e4afce88ac710f8e64c974c2cb88c8a8f9b2",
+        "0e9866e5643e6ccd31322a13f0c6fe2216e8cdde19d1997c5e0a822b2db80659",
+        "d22fb95d6bedbc3d9178ccac263d027c10a510016f4b9da3b8c1694933116a5a",
+        "280e1f88f772ec3cb98585270be92d51637d512dbb818f1e611f4fe966a9ac88"
+      ],
+      "top_sources": [
+        "dishes/staple/西红柿鸡蛋挂面/西红柿鸡蛋挂面.md",
+        "dishes/staple/米饭/电饭煲蒸米饭.md",
+        "dishes/staple/蛋炒饭.md",
+        "dishes/aquatic/葱油桂鱼/葱油桂鱼.md",
+        "dishes/meat_dish/贵州辣子鸡/贵州辣子鸡.md"
+      ],
+      "latency_ms": 13.960499985842034,
+      "metrics": null
+    },
+    {
+      "query_id": "q029",
+      "query": "量子纠缠为什么不能用来超光速通信？",
+      "query_type": "no_answer",
+      "mode": "hybrid",
+      "filters": {},
+      "relevant_sources": [],
+      "relevant_document_ids": [],
+      "top_document_ids": [
+        "0f850528c9848307d3b5e58a50c7784d39a65d90a258854b0d6d5a73276073ff",
+        "49e4e1e85bbfe8f859055175b5c6b231f7e2ca27548728ebd6d2af7b52a87dad",
+        "cf3dabc066de2aa054f07c926b85e4afce88ac710f8e64c974c2cb88c8a8f9b2",
+        "920d017802b3b131e2ce62259aac0ebd32b503cc61d745766a7063d5472919c2",
+        "0e9866e5643e6ccd31322a13f0c6fe2216e8cdde19d1997c5e0a822b2db80659"
+      ],
+      "top_sources": [
+        "dishes/breakfast/牛奶燕麦.md",
+        "dishes/staple/西红柿鸡蛋挂面/西红柿鸡蛋挂面.md",
+        "dishes/staple/米饭/电饭煲蒸米饭.md",
+        "dishes/staple/汤面.md",
+        "dishes/staple/蛋炒饭.md"
+      ],
+      "latency_ms": 19.129699998302385,
+      "metrics": null
+    },
+    {
+      "query_id": "q030",
+      "query": "如何用 FastAPI 部署一个带 JWT 认证的 REST 服务？",
+      "query_type": "no_answer",
+      "mode": "vector",
+      "filters": {},
+      "relevant_sources": [],
+      "relevant_document_ids": [],
+      "top_document_ids": [
+        "5fa782ab3b20344dc7c108e41a8c94ca96d9f253c9b5ee050b7c90b53dc7e81d",
+        "0f850528c9848307d3b5e58a50c7784d39a65d90a258854b0d6d5a73276073ff",
+        "0d12168d06e9bb21cc3d13efb58f6b607c51d28462514f348ad6dc0183cc64da",
+        "920d017802b3b131e2ce62259aac0ebd32b503cc61d745766a7063d5472919c2",
+        "824114aa00bd36da5092ed008ba6eab80766d6f9082cbe40860693ef83060adb"
+      ],
+      "top_sources": [
+        "dishes/vegetable_dish/红烧茄子.md",
+        "dishes/breakfast/牛奶燕麦.md",
+        "dishes/breakfast/温泉蛋/温泉蛋.md",
+        "dishes/staple/汤面.md",
+        "dishes/meat_dish/小炒黄牛肉/小炒黄牛肉.md"
+      ],
+      "latency_ms": 7.413000013912097,
+      "metrics": null
+    },
+    {
+      "query_id": "q030",
+      "query": "如何用 FastAPI 部署一个带 JWT 认证的 REST 服务？",
+      "query_type": "no_answer",
+      "mode": "bm25",
+      "filters": {},
+      "relevant_sources": [],
+      "relevant_document_ids": [],
+      "top_document_ids": [
+        "853f4dcc16af4157d10c3f53c7f322b45940152d42cd39372ea271ba3dfed93c",
+        "b13f782654bf3db86b9dc6e3e1dfd9ff11c4dba321eee0f71677d02bfd917bed",
+        "ec9f0780bddb3fb43e422f7ec947edd6f047c97e0efac620943e540861fea15e",
+        "580927b6ab1e41c2e4ef41ae3df14cee733bc69513f517e460328e5e0081c393",
+        "afbed08955789550ecc3966b781bfe0664660d7a25ac64c8021616aa7191ea33"
+      ],
+      "top_sources": [
+        "dishes/breakfast/水煮玉米.md",
+        "dishes/breakfast/蒸水蛋.md",
+        "dishes/staple/基础牛奶面包/基础牛奶面包.md",
+        "dishes/staple/肉蛋盖饭.md",
+        "dishes/vegetable_dish/鸡蛋羹/鸡蛋羹.md"
+      ],
+      "latency_ms": 10.01119997818023,
+      "metrics": null
+    },
+    {
+      "query_id": "q030",
+      "query": "如何用 FastAPI 部署一个带 JWT 认证的 REST 服务？",
+      "query_type": "no_answer",
+      "mode": "hybrid",
+      "filters": {},
+      "relevant_sources": [],
+      "relevant_document_ids": [],
+      "top_document_ids": [
+        "853f4dcc16af4157d10c3f53c7f322b45940152d42cd39372ea271ba3dfed93c",
+        "5fa782ab3b20344dc7c108e41a8c94ca96d9f253c9b5ee050b7c90b53dc7e81d",
+        "b13f782654bf3db86b9dc6e3e1dfd9ff11c4dba321eee0f71677d02bfd917bed",
+        "0f850528c9848307d3b5e58a50c7784d39a65d90a258854b0d6d5a73276073ff",
+        "ec9f0780bddb3fb43e422f7ec947edd6f047c97e0efac620943e540861fea15e"
+      ],
+      "top_sources": [
+        "dishes/breakfast/水煮玉米.md",
+        "dishes/vegetable_dish/红烧茄子.md",
+        "dishes/breakfast/蒸水蛋.md",
+        "dishes/breakfast/牛奶燕麦.md",
+        "dishes/staple/基础牛奶面包/基础牛奶面包.md"
+      ],
+      "latency_ms": 20.72640002006665,
+      "metrics": null
+    }
+  ]
+}

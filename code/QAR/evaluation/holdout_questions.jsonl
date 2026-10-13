@@ -1,0 +1,22 @@
+{"id":"h001","query":"想让土豆丝下锅后不粘成一团，切好以后应该先怎样处理？","query_type":"answer","relevant_documents":["dishes/vegetable_dish/酸辣土豆丝.md"],"filters":{},"annotation_note":"文档说明清洗多余淀粉并短暂焯水，避免土豆丝粘连。"}
+{"id":"h002","query":"做温泉蛋时，水温需要稳定在多少度，鸡蛋要在水里放多久？","query_type":"answer","relevant_documents":["dishes/breakfast/温泉蛋/温泉蛋.md"],"filters":{},"annotation_note":"操作章节明确给出恒温温度和加热时长。"}
+{"id":"h003","query":"西兰花焯到颜色翠绿、口感变软通常要煮几分钟？","query_type":"answer","relevant_documents":["dishes/vegetable_dish/蒜蓉西兰花.md"],"filters":{},"annotation_note":"蒜蓉西兰花的操作章节给出焯水时间和状态。"}
+{"id":"h004","query":"煮鸡蛋做卤味时，为什么捞出后要先过冷水，再把蛋壳敲出裂纹？","query_type":"answer","relevant_documents":["dishes/breakfast/茶叶蛋.md"],"filters":{},"annotation_note":"茶叶蛋文档解释过冷水用于让鸡蛋与蛋壳之间产生间隙。"}
+{"id":"h005","query":"不加水煮虾，在平底锅底铺洋葱和姜片以后，火力和焖制时间怎么安排？","query_type":"answer","relevant_documents":["dishes/aquatic/白灼虾/白灼虾.md"],"filters":{},"annotation_note":"白灼虾文档给出中火、小火和关火焖制的连续时间。"}
+{"id":"h006","query":"用袋泡红茶和奶粉自制热饮，茶包加沸水以后应浸泡多久？","query_type":"answer","relevant_documents":["dishes/drink/奶茶.md"],"filters":{},"annotation_note":"奶茶文档明确记录红茶的沸水用量和等待时间。"}
+{"id":"h007","query":"拌饭用的甜辣酱汁需要哪些调料，一份大致各放多少？","query_type":"answer","relevant_documents":["dishes/staple/韩式拌饭/韩式拌饭.md"],"filters":{},"annotation_note":"韩式拌饭文档在备酱汁步骤列出辣酱、生抽、雪碧、芝麻和芝麻油用量。"}
+{"id":"h008","query":"生蚝第一次蒸完、开壳放入姜丝和蒜末后，还要用多大功率蒸多久？","query_type":"answer","relevant_documents":["dishes/aquatic/清蒸生蚝.md"],"filters":{},"annotation_note":"清蒸生蚝文档给出第二阶段的功率和时长。"}
+{"id":"h009","query":"家里没有西米，做芒果和葡萄柚甜品时能用什么代替，这种替代物要怎么处理？","query_type":"answer","relevant_documents":["dishes/drink/杨枝甘露.md"],"filters":{},"annotation_note":"文档使用奇亚籽替代西米，并说明用牛奶浸泡十分钟。"}
+{"id":"h010","query":"毛豆和话梅下锅之前，毛豆要先怎样处理，之后需要煮多长时间？","query_type":"answer","relevant_documents":["dishes/vegetable_dish/话梅煮毛豆/话梅煮毛豆.md"],"filters":{},"annotation_note":"文档说明盐水浸泡和后续水煮时间。"}
+{"id":"h011","query":"詹姆斯·韦布空间望远镜如何分析系外行星的大气成分？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有天文学或空间望远镜内容。"}
+{"id":"h012","query":"板块碰撞是怎样形成喜马拉雅山脉的？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有地质学内容。"}
+{"id":"h013","query":"TLS 握手时客户端如何验证服务器证书链？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有网络安全协议内容。"}
+{"id":"h014","query":"钢筋混凝土浇筑后为什么需要养护，常见养护方式有哪些？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有土木工程内容。"}
+{"id":"h015","query":"印欧语系包含哪些主要分支，它们有什么共同特征？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有历史语言学内容。"}
+{"id":"h016","query":"中央银行提高存款准备金率通常会怎样影响通货膨胀？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有宏观经济和货币政策内容。"}
+{"id":"h017","query":"工作记忆模型中的语音环路和视觉空间模板分别负责什么？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有认知心理学内容。"}
+{"id":"h018","query":"MOSFET 在高频开关电源中的开关损耗如何估算？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有电子工程内容。"}
+{"id":"h019","query":"《百年孤独》中布恩迪亚家族的人物关系应该怎样梳理？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有文学作品人物分析。"}
+{"id":"h020","query":"海水温度升高为什么会导致珊瑚白化？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有海洋生态学内容。"}
+{"id":"h021","query":"棒球比赛中的内场高飞球规则在什么情况下适用？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有棒球规则内容。"}
+{"id":"h022","query":"文艺复兴绘画中的明暗法是怎样塑造立体感的？","query_type":"no_answer","relevant_documents":[],"filters":{},"annotation_note":"公开食谱知识库中没有艺术史或绘画技法内容。"}

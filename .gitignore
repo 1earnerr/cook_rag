@@ -1,0 +1,9 @@
+.venv/
+.venv-lc1/
+.uv-cache/
+.uv-cache-lc1/
+.hf-cache/
+__pycache__/
+.pytest_cache/
+.env
+code/QAR/vector_index/

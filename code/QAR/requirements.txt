@@ -1,0 +1,16 @@
+# LangChain 1.x application environment. The top-level langchain package is not used.
+langchain-core==1.6.3
+langchain-huggingface==1.2.2
+langchain-text-splitters==1.1.2
+langchain-openai==1.6.2
+faiss-cpu==1.15.1
+rank_bm25==0.2.2
+sentence-transformers==5.7.0
+transformers==5.17.0
+huggingface-hub==1.32.0
+torch==2.14.0
+numpy==2.5.3
+python-dotenv==1.2.3
+fastapi==0.141.1
+pydantic==2.13.5
+uvicorn==0.53.0
